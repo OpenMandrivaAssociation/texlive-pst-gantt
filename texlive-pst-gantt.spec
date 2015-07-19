@@ -6,7 +6,7 @@
 # catalog-version 0.22
 Name:		texlive-pst-gantt
 Version:	0.22
-Release:	8
+Release:	9
 Summary:	Draw GANTT charts with pstricks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-gantt
