@@ -1,18 +1,12 @@
-# revision 32023
-# category Package
-# catalog-ctan /graphics/pstricks/contrib/pst-gantt
-# catalog-date 2013-10-28 20:11:41 +0100
-# catalog-license lppl
-# catalog-version 0.22
 Name:		texlive-pst-gantt
-Version:	0.22a
-Release:	2
+Version:	35832
+Release:	1
 Summary:	Draw GANTT charts with pstricks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-gantt
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-gantt.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-gantt.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-gantt.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-gantt.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -24,12 +18,12 @@ kind of bar chart that displays a project schedule. The package
 requires the pstricks apparatus, of course.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -43,7 +37,7 @@ requires the pstricks apparatus, of course.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
