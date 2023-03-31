@@ -1,6 +1,6 @@
 Name:		texlive-pst-gantt
 Version:	35832
-Release:	1
+Release:	2
 Summary:	Draw GANTT charts with pstricks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-gantt
