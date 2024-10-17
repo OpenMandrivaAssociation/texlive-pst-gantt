@@ -3,7 +3,7 @@ Version:	35832
 Release:	2
 Summary:	Draw GANTT charts with pstricks
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-gantt
+URL:		https://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-gantt
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-gantt.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-gantt.doc.r%{version}.tar.xz
